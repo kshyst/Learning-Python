@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="added DeploymentLinux.ipynb" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +95,7 @@
       <workItem from="1720617490963" duration="6599000" />
       <workItem from="1720633600717" duration="827000" />
       <workItem from="1721826362651" duration="4587000" />
-      <workItem from="1721846623478" duration="7768000" />
+      <workItem from="1721846623478" duration="8176000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -129,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721861086042</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <option name="closed" value="true" />
+      <created>1721861460586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721861460586</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <option name="closed" value="true" />
+      <created>1721861497878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721861497878</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +166,8 @@
     <MESSAGE value="jupyter learning" />
     <MESSAGE value="oop" />
     <MESSAGE value="added DeploymentLinux.ipynb" />
-    <option name="LAST_COMMIT_MESSAGE" value="added DeploymentLinux.ipynb" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1720633367171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
