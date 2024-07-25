@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="1" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeploymentLinux.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DeploymentLinux.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +98,8 @@
       <workItem from="1720617490963" duration="6599000" />
       <workItem from="1720633600717" duration="827000" />
       <workItem from="1721826362651" duration="4587000" />
-      <workItem from="1721846623478" duration="8176000" />
+      <workItem from="1721846623478" duration="9825000" />
+      <workItem from="1721914408138" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -145,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721861497878</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <option name="closed" value="true" />
+      <created>1721861605657</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721861605657</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
