@@ -99,7 +99,7 @@
       <workItem from="1720633600717" duration="827000" />
       <workItem from="1721826362651" duration="4587000" />
       <workItem from="1721846623478" duration="9825000" />
-      <workItem from="1721914408138" duration="1248000" />
+      <workItem from="1721914408138" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -157,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721861605657</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <option name="closed" value="true" />
+      <created>1721917093801</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721917093801</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
