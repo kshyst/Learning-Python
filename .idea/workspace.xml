@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="full nginx guide version beta">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="ssl guide added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +98,7 @@
       <workItem from="1721826362651" duration="4587000" />
       <workItem from="1721846623478" duration="9825000" />
       <workItem from="1721914408138" duration="11684000" />
-      <workItem from="1721945560587" duration="1897000" />
+      <workItem from="1721945560587" duration="2502000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -191,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721936058549</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ssl guide added">
+      <option name="closed" value="true" />
+      <created>1721948089016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721948089016</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +220,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="added ssh guide" />
     <MESSAGE value="full nginx guide version beta" />
-    <option name="LAST_COMMIT_MESSAGE" value="full nginx guide version beta" />
+    <MESSAGE value="ssl guide added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssl guide added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1720633367171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
