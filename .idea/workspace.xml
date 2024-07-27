@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="few things added">
-      <change afterPath="$PROJECT_DIR$/TelegramBot.ipynb" afterDir="false" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="Guide to Venvs">
+      <change beforePath="$PROJECT_DIR$/.idea/Training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,22 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Python Projects\Training\Telegram Bot" />
       <recent name="S:\Python Projects\Training" />
       <recent name="S:\Python Projects\Training\OOP" />
     </key>
@@ -107,7 +110,7 @@
       <workItem from="1722022065471" duration="2067000" />
       <workItem from="1722033569989" duration="827000" />
       <workItem from="1722062261634" duration="55000" />
-      <workItem from="1722062359761" duration="3098000" />
+      <workItem from="1722062359761" duration="6010000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -237,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722036706487</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Telegram bot document started">
+      <option name="closed" value="true" />
+      <created>1722088321606</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722088321606</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Guide to Venvs">
+      <option name="closed" value="true" />
+      <created>1722089009585</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722089009585</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,9 +283,11 @@
     <MESSAGE value="ssl guide added" />
     <MESSAGE value="postgresql" />
     <MESSAGE value="few things added" />
-    <option name="LAST_COMMIT_MESSAGE" value="few things added" />
+    <MESSAGE value="Telegram bot document started" />
+    <MESSAGE value="Guide to Venvs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guide to Venvs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1720633367171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722088669598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
   </component>
 </project>
