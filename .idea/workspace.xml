@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="added some testing commands to nginx">
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="json added">
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/token.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Telegram Bot/TelegramBot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/TelegramBot.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Telegram Bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -35,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.calc.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -108,7 +112,8 @@
       <workItem from="1722022065471" duration="2067000" />
       <workItem from="1722033569989" duration="827000" />
       <workItem from="1722062261634" duration="55000" />
-      <workItem from="1722062359761" duration="7382000" />
+      <workItem from="1722062359761" duration="8240000" />
+      <workItem from="1722102401689" duration="3913000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -262,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722095568040</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="json added">
+      <option name="closed" value="true" />
+      <created>1722098404728</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722098404728</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,9 +305,11 @@
     <MESSAGE value="Telegram bot document started" />
     <MESSAGE value="Guide to Venvs" />
     <MESSAGE value="added some testing commands to nginx" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some testing commands to nginx" />
+    <MESSAGE value="json added" />
+    <option name="LAST_COMMIT_MESSAGE" value="json added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722096063243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
+    <SUITE FILE_PATH="coverage/Training$calc.coverage" NAME="calc Coverage Results" MODIFIED="1722109995965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
+    <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722108405579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
   </component>
 </project>
