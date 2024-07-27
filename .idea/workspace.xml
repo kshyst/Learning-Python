@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="few things added">
+      <change afterPath="$PROJECT_DIR$/TelegramBot.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,9 @@
       <workItem from="1721988191224" duration="5086000" />
       <workItem from="1722021471745" duration="80000" />
       <workItem from="1722022065471" duration="2067000" />
-      <workItem from="1722033569989" duration="737000" />
+      <workItem from="1722033569989" duration="827000" />
+      <workItem from="1722062261634" duration="55000" />
+      <workItem from="1722062359761" duration="3098000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -227,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722025266560</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="few things added">
+      <option name="closed" value="true" />
+      <created>1722036706487</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722036706487</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
