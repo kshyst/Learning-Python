@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="Guide to Venvs">
-      <change beforePath="$PROJECT_DIR$/.idea/Training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Training.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="added some testing commands to nginx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DeploymentWithNginx.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Telegram Bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,7 @@
       <workItem from="1722022065471" duration="2067000" />
       <workItem from="1722033569989" duration="827000" />
       <workItem from="1722062261634" duration="55000" />
-      <workItem from="1722062359761" duration="6010000" />
+      <workItem from="1722062359761" duration="7382000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -256,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722089009585</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added some testing commands to nginx">
+      <option name="closed" value="true" />
+      <created>1722095568040</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722095568040</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,9 +291,10 @@
     <MESSAGE value="few things added" />
     <MESSAGE value="Telegram bot document started" />
     <MESSAGE value="Guide to Venvs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guide to Venvs" />
+    <MESSAGE value="added some testing commands to nginx" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some testing commands to nginx" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722088669598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
+    <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722096063243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
   </component>
 </project>
