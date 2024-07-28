@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="going forward">
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/Omdb/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/Omdb/omdb_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/Omdb/requirements.txt" afterDir="false" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="imdb fisher added">
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/LearnMongoDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/Mongo/mongo_client.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Telegram Bot/token.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telegram Bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Telegram Bot/TelegramBot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/TelegramBot.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +38,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.LearnMongoDB.executor": "Run",
     "Python.bot.executor": "Run",
     "Python.calc.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.mongo_client.executor": "Run",
     "Python.omdb.executor": "Run",
     "Python.omdb_client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Python Projects\Training\Telegram Bot\Mongo" />
       <recent name="S:\Python Projects\Training\Telegram Bot\Omdb" />
       <recent name="S:\Python Projects\Training\Telegram Bot" />
       <recent name="S:\Python Projects\Training" />
@@ -118,7 +120,7 @@
       <workItem from="1722033569989" duration="827000" />
       <workItem from="1722062261634" duration="55000" />
       <workItem from="1722062359761" duration="8240000" />
-      <workItem from="1722102401689" duration="7942000" />
+      <workItem from="1722102401689" duration="12561000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -288,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722110256533</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="imdb fisher added">
+      <option name="closed" value="true" />
+      <created>1722120746250</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722120746250</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,13 +330,16 @@
     <MESSAGE value="added some testing commands to nginx" />
     <MESSAGE value="json added" />
     <MESSAGE value="going forward" />
-    <option name="LAST_COMMIT_MESSAGE" value="going forward" />
+    <MESSAGE value="imdb fisher added" />
+    <option name="LAST_COMMIT_MESSAGE" value="imdb fisher added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training$calc.coverage" NAME="calc Coverage Results" MODIFIED="1722109995965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
     <SUITE FILE_PATH="coverage/Training$omdb.coverage" NAME="omdb Coverage Results" MODIFIED="1722113981884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
-    <SUITE FILE_PATH="coverage/Training$bot.coverage" NAME="bot Coverage Results" MODIFIED="1722115816581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Omdb" />
+    <SUITE FILE_PATH="coverage/Training$mongo_client.coverage" NAME="mongo_client Coverage Results" MODIFIED="1722124866064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Mongo" />
+    <SUITE FILE_PATH="coverage/Training$bot.coverage" NAME="bot Coverage Results" MODIFIED="1722115856427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Omdb" />
     <SUITE FILE_PATH="coverage/Training$omdb_client.coverage" NAME="omdb_client Coverage Results" MODIFIED="1722114371085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Omdb" />
     <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722112912735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
+    <SUITE FILE_PATH="coverage/Training$LearnMongoDB.coverage" NAME="LearnMongoDB Coverage Results" MODIFIED="1722122949070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
   </component>
 </project>
