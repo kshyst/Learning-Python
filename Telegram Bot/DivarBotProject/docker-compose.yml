@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  telegram-bot-db:
+    image: registry.gitlab.com/qio/standard/mongo:7.0.2
+    container_name: telegram-bot-db
+    ports:
+      - "27017:27017"

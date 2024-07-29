@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="imdb fisher added">
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/LearnMongoDB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/Mongo/mongo_client.py" afterDir="false" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="Mongo db usage in making bots added">
+      <change afterPath="$PROJECT_DIR$/Docker.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinuxUsefuls.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/mongo_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/test/test_sample.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Telegram Bot/token.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Telegram Bot/TelegramBot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/TelegramBot.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -36,33 +41,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.LearnMongoDB.executor": "Run",
-    "Python.bot.executor": "Run",
-    "Python.calc.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mongo_client.executor": "Run",
-    "Python.omdb.executor": "Run",
-    "Python.omdb_client.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.DivarBotProject: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LearnMongoDB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mongo_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.omdb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.omdb_client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Python Projects\Training\Telegram Bot\InfoBot\tests" />
+      <recent name="S:\Python Projects\Training\Telegram Bot\InfoBot" />
+      <recent name="S:\Python Projects\Training\Telegram Bot\DivarBotProject" />
+      <recent name="S:\Python Projects\Training\Telegram Bot\BotWithMongo" />
       <recent name="S:\Python Projects\Training\Telegram Bot\Mongo" />
-      <recent name="S:\Python Projects\Training\Telegram Bot\Omdb" />
-      <recent name="S:\Python Projects\Training\Telegram Bot" />
-      <recent name="S:\Python Projects\Training" />
-      <recent name="S:\Python Projects\Training\OOP" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,6 +95,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DivarBotProject: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="Telegram Bot/DivarBotProject/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.DivarBotProject: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -120,7 +146,10 @@
       <workItem from="1722033569989" duration="827000" />
       <workItem from="1722062261634" duration="55000" />
       <workItem from="1722062359761" duration="8240000" />
-      <workItem from="1722102401689" duration="12561000" />
+      <workItem from="1722102401689" duration="13963000" />
+      <workItem from="1722158673958" duration="4660000" />
+      <workItem from="1722199783578" duration="3334000" />
+      <workItem from="1722203263224" duration="9839000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -298,7 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722120746250</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Mongo db usage added">
+      <option name="closed" value="true" />
+      <created>1722125230485</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722125230485</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Mongo db usage in making bots added">
+      <option name="closed" value="true" />
+      <created>1722163202117</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722163202117</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,13 +376,15 @@
     <MESSAGE value="json added" />
     <MESSAGE value="going forward" />
     <MESSAGE value="imdb fisher added" />
-    <option name="LAST_COMMIT_MESSAGE" value="imdb fisher added" />
+    <MESSAGE value="Mongo db usage added" />
+    <MESSAGE value="Mongo db usage in making bots added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mongo db usage in making bots added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training$calc.coverage" NAME="calc Coverage Results" MODIFIED="1722109995965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
     <SUITE FILE_PATH="coverage/Training$omdb.coverage" NAME="omdb Coverage Results" MODIFIED="1722113981884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
-    <SUITE FILE_PATH="coverage/Training$mongo_client.coverage" NAME="mongo_client Coverage Results" MODIFIED="1722124866064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Mongo" />
-    <SUITE FILE_PATH="coverage/Training$bot.coverage" NAME="bot Coverage Results" MODIFIED="1722115856427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Omdb" />
+    <SUITE FILE_PATH="coverage/Training$mongo_client.coverage" NAME="mongo_client Coverage Results" MODIFIED="1722212946371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/DivarBotProject" />
+    <SUITE FILE_PATH="coverage/Training$bot.coverage" NAME="bot Coverage Results" MODIFIED="1722212565261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/InfoBot" />
     <SUITE FILE_PATH="coverage/Training$omdb_client.coverage" NAME="omdb_client Coverage Results" MODIFIED="1722114371085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Omdb" />
     <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722112912735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
     <SUITE FILE_PATH="coverage/Training$LearnMongoDB.coverage" NAME="LearnMongoDB Coverage Results" MODIFIED="1722122949070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
