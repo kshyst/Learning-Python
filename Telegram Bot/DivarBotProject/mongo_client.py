@@ -42,7 +42,7 @@ class AdsMongoClient:
         self.ads_collection.delete_one({"user_id": user_id,
                                         "_id": doc_id})
 
-    def get_ads_by_user_id(self, user_id: int):
+    def get_user_ads(self, user_id: int):
         results = self.ads_collection.find({"user_id": user_id})
 
         ads = []

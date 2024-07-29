@@ -17,7 +17,6 @@ from telegram.ext import (
 #BOT_TOKEN: Final = "<BOT_TOKEN>"
 BOT_TOKEN: Final = json.load(open("../token.json"))["token"]
 
-
 GENDER, PHOTO, BIO = range(3)
 
 

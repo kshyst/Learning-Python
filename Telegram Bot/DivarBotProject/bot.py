@@ -25,7 +25,7 @@ CATEGORY, PHOTO, DESCRIPTION = range(3)
 db_client = AdsMongoClient("localhost", 27017)
 # add your user ids here, you can use @userinfobot to get your user id
 # DO NOT REMOVE EXISTING IDs
-dev_ids = [92129627, 987654321, 91003546]
+dev_ids = [92129627, 987654321 , 91003546]
 
 
 async def start_command_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -59,8 +59,6 @@ async def add_category_command_handler(
 
     text = f"دسته بندی {category} با موفقیت اضافه شد."
 
-    print(db_client.get_categories())
-
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
         text=text,
@@ -72,6 +70,7 @@ async def add_advertising_command_handler(
         update: Update, context: ContextTypes.DEFAULT_TYPE
 ) -> int:
     categories = db_client.get_categories()
+    categories = [str(category) for category in categories]
     text = "لطفا از بین دسته بندی های زیر یکی را انتخاب کنید:\n" + "\n".join(categories)
 
     await context.bot.send_message(
@@ -142,10 +141,71 @@ async def cancel_command_handler(
     return ConversationHandler.END
 
 
+async def my_ads_command_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    ads = db_client.get_user_ads(update.effective_user.id)
+
+    if len(ads) == 0:
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text="شما هیچ آگهی ثبت نکرده‌اید.",
+            reply_to_message_id=update.effective_message.id,
+        )
+        return
+
+    for ad in ads:
+        await context.bot.send_photo(
+            chat_id=update.effective_chat.id,
+            photo=ad["photo_url"],
+            caption=ad[
+                        "description"] + f"\n\n" + "برای حذف آگهی از دستور زیر استفاده کنید." + "\n\n" + f"/delete_ad {ad['id']}",
+            reply_to_message_id=update.effective_message.id,
+        )
+
+
+async def delete_ad_command_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    doc_id = context.args[0]
+    user_id = update.effective_user.id
+
+    db_client.delete_advertising(user_id, doc_id)
+
+    await context.bot.send_message(
+        chat_id=update.effective_chat.id,
+        text="آگهی با موفقیت حذف شد.",
+        reply_to_message_id=update.effective_message.id,
+    )
+
+
+async def search_ads_by_category_inline_query(
+        update: Update, context: ContextTypes.DEFAULT_TYPE
+):
+    category = update.inline_query.query
+    if not category:
+        return
+
+    ads = db_client.get_ads_by_category(category)
+
+    results = [
+        InlineQueryResultPhoto(
+            id=ad["id"],
+            title=ad["description"],
+            photo_url=ad["photo_url"],
+            thumbnail_url=ad["photo_url"],
+            caption=ad["description"],
+        )
+        for ad in ads
+    ]
+
+    await context.bot.answer_inline_query(
+        update.inline_query.id,
+        results,
+    )
+
 if __name__ == "__main__":
     app = ApplicationBuilder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start_command_handler))
     app.add_handler(CommandHandler("add_category", add_category_command_handler))
+    app.add_handler(CommandHandler("my_ads", my_ads_command_handler))
+    app.add_handler(CommandHandler("delete_ad", delete_ad_command_handler))
     app.add_handler(
         ConversationHandler(
             entry_points=[
@@ -172,4 +232,5 @@ if __name__ == "__main__":
             allow_reentry=True,
         )
     )
+    app.add_handler(InlineQueryHandler(search_ads_by_category_inline_query))
     app.run_polling()
