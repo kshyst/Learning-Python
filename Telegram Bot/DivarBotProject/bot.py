@@ -25,7 +25,7 @@ CATEGORY, PHOTO, DESCRIPTION = range(3)
 db_client = AdsMongoClient("localhost", 27017)
 # add your user ids here, you can use @userinfobot to get your user id
 # DO NOT REMOVE EXISTING IDs
-dev_ids = [92129627, 987654321 , 91003546]
+dev_ids = [92129627, 987654321 ]
 
 
 async def start_command_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
