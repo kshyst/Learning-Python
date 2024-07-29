@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="Mongo db usage in making bots added">
-      <change afterPath="$PROJECT_DIR$/Docker.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinuxUsefuls.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/mongo_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/test/test_sample.py" afterDir="false" />
+    <list default="true" id="9e2d21dc-641e-4b00-9cfe-7202122ceab3" name="Changes" comment="going forward">
+      <change afterPath="$PROJECT_DIR$/Telegram Bot/DivarBotProject/bot.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Telegram Bot/token.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Telegram Bot/InfoBot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Telegram Bot/InfoBot/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +58,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Python Projects\Training\Telegram Bot\DivarBotProject" />
       <recent name="S:\Python Projects\Training\Telegram Bot\InfoBot\tests" />
       <recent name="S:\Python Projects\Training\Telegram Bot\InfoBot" />
-      <recent name="S:\Python Projects\Training\Telegram Bot\DivarBotProject" />
       <recent name="S:\Python Projects\Training\Telegram Bot\BotWithMongo" />
       <recent name="S:\Python Projects\Training\Telegram Bot\Mongo" />
     </key>
@@ -149,7 +143,9 @@
       <workItem from="1722102401689" duration="13963000" />
       <workItem from="1722158673958" duration="4660000" />
       <workItem from="1722199783578" duration="3334000" />
-      <workItem from="1722203263224" duration="9839000" />
+      <workItem from="1722203263224" duration="10440000" />
+      <workItem from="1722259151947" duration="36000" />
+      <workItem from="1722259207902" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="jupyter learning">
       <option name="closed" value="true" />
@@ -343,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722163202117</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="going forward">
+      <option name="closed" value="true" />
+      <created>1722214219075</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722214219075</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,17 +378,17 @@
     <MESSAGE value="Guide to Venvs" />
     <MESSAGE value="added some testing commands to nginx" />
     <MESSAGE value="json added" />
-    <MESSAGE value="going forward" />
     <MESSAGE value="imdb fisher added" />
     <MESSAGE value="Mongo db usage added" />
     <MESSAGE value="Mongo db usage in making bots added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mongo db usage in making bots added" />
+    <MESSAGE value="going forward" />
+    <option name="LAST_COMMIT_MESSAGE" value="going forward" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Training$calc.coverage" NAME="calc Coverage Results" MODIFIED="1722109995965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
     <SUITE FILE_PATH="coverage/Training$omdb.coverage" NAME="omdb Coverage Results" MODIFIED="1722113981884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
     <SUITE FILE_PATH="coverage/Training$mongo_client.coverage" NAME="mongo_client Coverage Results" MODIFIED="1722212946371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/DivarBotProject" />
-    <SUITE FILE_PATH="coverage/Training$bot.coverage" NAME="bot Coverage Results" MODIFIED="1722212565261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/InfoBot" />
+    <SUITE FILE_PATH="coverage/Training$bot.coverage" NAME="bot Coverage Results" MODIFIED="1722262665214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/InfoBot" />
     <SUITE FILE_PATH="coverage/Training$omdb_client.coverage" NAME="omdb_client Coverage Results" MODIFIED="1722114371085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot/Omdb" />
     <SUITE FILE_PATH="coverage/Training$main.coverage" NAME="main Coverage Results" MODIFIED="1722112912735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />
     <SUITE FILE_PATH="coverage/Training$LearnMongoDB.coverage" NAME="LearnMongoDB Coverage Results" MODIFIED="1722122949070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Telegram Bot" />

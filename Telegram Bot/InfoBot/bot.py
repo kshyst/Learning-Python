@@ -50,13 +50,16 @@ async def gender_message_handler(
 async def photo_message_handler(
         update: Update, context: ContextTypes.DEFAULT_TYPE
 ) -> int:
-    photo_file = update.effective_message.photo[-1].file_id
-    await photo_file.download_to_drive(f"photos/user_{update.effective_user.id}.jpg")
+    message = update.effective_message
+
+    new_file = await message.effective_attachment[-1].get_file()
+    await new_file.download_to_drive(f"photos/user_{update.effective_user.id}.jpg")
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
         text="Okay, Now can you please send me a bio about yourself.",
         reply_to_message_id=update.effective_message.id,
+        reply_markup=ReplyKeyboardRemove(),
     )
 
     return BIO
